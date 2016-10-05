@@ -1,0 +1,10 @@
+prefix=/usr/local/pspdev/psp
+libdir=/usr/local/pspdev/psp/lib
+includedir=/usr/local/pspdev/psp/include
+ 
+Name: zzipwrap
+Version: 0.13.38
+Description: Callback Wrappers for ZZipLib
+Requires: zziplib
+Libs: -L${libdir} -lzzipwrap
+Cflags: -I${includedir}
